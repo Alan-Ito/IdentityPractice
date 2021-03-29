@@ -83,8 +83,15 @@ using ja3.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\alant\OneDrive\Documents\SSTN\Blazor Practice\ja3\Pages\FetchData.razor"
+#line 2 "C:\Users\alant\OneDrive\Documents\SSTN\Blazor Practice\ja3\Pages\FetchData.razor"
 using ja3.Data;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\alant\OneDrive\Documents\SSTN\Blazor Practice\ja3\Pages\FetchData.razor"
+           [Authorize]
 
 #line default
 #line hidden

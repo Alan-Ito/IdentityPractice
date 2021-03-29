@@ -12,35 +12,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1484115228,
+        "HashCode": 1890844987,
         "Kind": "Components.Component",
-        "Name": "ja3.Pages.Counter",
+        "Name": "ja3.Pages.Index",
         "AssemblyName": "ja3",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ja3.Pages.Counter"
+          "Common.TypeName": "ja3.Pages.Index"
         }
       },
       {
-        "HashCode": 1971454857,
+        "HashCode": -887131746,
         "Kind": "Components.Component",
-        "Name": "ja3.Pages.Counter",
+        "Name": "ja3.Pages.Index",
         "AssemblyName": "ja3",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ja3.Pages.Counter"
+            "TagName": "ja3.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ja3.Pages.Counter",
+          "Common.TypeName": "ja3.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -78,68 +78,35 @@
         }
       },
       {
-        "HashCode": 1890844987,
+        "HashCode": -1484115228,
         "Kind": "Components.Component",
-        "Name": "ja3.Pages.Index",
+        "Name": "ja3.Pages.Counter",
         "AssemblyName": "ja3",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ja3.Pages.Index"
+          "Common.TypeName": "ja3.Pages.Counter"
         }
       },
       {
-        "HashCode": -887131746,
+        "HashCode": 1971454857,
         "Kind": "Components.Component",
-        "Name": "ja3.Pages.Index",
+        "Name": "ja3.Pages.Counter",
         "AssemblyName": "ja3",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ja3.Pages.Index"
+            "TagName": "ja3.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ja3.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1575031332,
-        "Kind": "Components.Component",
-        "Name": "ja3.App",
-        "AssemblyName": "ja3",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ja3.App"
-        }
-      },
-      {
-        "HashCode": -2089126539,
-        "Kind": "Components.Component",
-        "Name": "ja3.App",
-        "AssemblyName": "ja3",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ja3.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ja3.App",
+          "Common.TypeName": "ja3.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -388,6 +355,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "ja3.Shared.LoginDisplay",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1575031332,
+        "Kind": "Components.Component",
+        "Name": "ja3.App",
+        "AssemblyName": "ja3",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ja3.App"
+        }
+      },
+      {
+        "HashCode": -2089126539,
+        "Kind": "Components.Component",
+        "Name": "ja3.App",
+        "AssemblyName": "ja3",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ja3.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ja3.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
