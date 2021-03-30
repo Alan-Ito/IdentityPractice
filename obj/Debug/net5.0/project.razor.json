@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1890844987,
-        "Kind": "Components.Component",
-        "Name": "ja3.Pages.Index",
-        "AssemblyName": "ja3",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ja3.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -887131746,
-        "Kind": "Components.Component",
-        "Name": "ja3.Pages.Index",
-        "AssemblyName": "ja3",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ja3.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ja3.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1398028507,
         "Kind": "Components.Component",
         "Name": "ja3.Pages.FetchData",
@@ -74,6 +41,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "ja3.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1890844987,
+        "Kind": "Components.Component",
+        "Name": "ja3.Pages.Index",
+        "AssemblyName": "ja3",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ja3.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -887131746,
+        "Kind": "Components.Component",
+        "Name": "ja3.Pages.Index",
+        "AssemblyName": "ja3",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ja3.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ja3.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

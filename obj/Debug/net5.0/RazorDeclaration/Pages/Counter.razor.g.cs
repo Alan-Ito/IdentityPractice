@@ -84,7 +84,14 @@ using ja3.Shared;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\alant\OneDrive\Documents\SSTN\Blazor Practice\ja3\Pages\Counter.razor"
-           [Authorize]
+using ja3.Data;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\alant\OneDrive\Documents\SSTN\Blazor Practice\ja3\Pages\Counter.razor"
+           [Authorize(Roles = "SD.RoleAdmin")]
 
 #line default
 #line hidden
@@ -98,7 +105,7 @@ using ja3.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "C:\Users\alant\OneDrive\Documents\SSTN\Blazor Practice\ja3\Pages\Counter.razor"
+#line 10 "C:\Users\alant\OneDrive\Documents\SSTN\Blazor Practice\ja3\Pages\Counter.razor"
        
     private int currentCount = 0;
 

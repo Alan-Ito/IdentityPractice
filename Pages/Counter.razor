@@ -1,5 +1,6 @@
 @page "/counter"
-@attribute [Authorize]
+@using ja3.Data;
+@attribute [Authorize(Roles = "SD.RoleAdmin")]
 <h1>Counter</h1>
 
 <p>Current count: @currentCount</p>
