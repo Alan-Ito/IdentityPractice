@@ -91,7 +91,7 @@ using ja3.Data;
 #nullable disable
 #nullable restore
 #line 3 "C:\Users\alant\OneDrive\Documents\SSTN\Blazor Practice\ja3\Pages\Counter.razor"
-           [Authorize(Roles = "SD.RoleAdmin")]
+           [Authorize(Roles = SD.Role_Admin)]
 
 #line default
 #line hidden

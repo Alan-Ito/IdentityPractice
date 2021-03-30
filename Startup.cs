@@ -37,7 +37,7 @@ namespace ja3
             services.AddIdentity<IdentityUser, IdentityRole>()
             .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders().AddDefaultUI();
-
+            services.AddScoped<IDbInitializer, DbInitializer>();
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
@@ -46,7 +46,7 @@ namespace ja3
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IDbInitializer dbInitializer)
         {
             if (env.IsDevelopment())
             {
@@ -67,6 +67,7 @@ namespace ja3
             app.UseAuthentication();
             app.UseAuthorization();
 
+            dbInitializer.Initalize();
 
             app.UseEndpoints(endpoints =>
             {
